@@ -31,7 +31,7 @@ function FormSection(){
     }
 
     return(
-        <section className="FormSection">
+        <section id='FormSection' className="FormSection">
             <div className="form-details">
                 <div className="form-text">
                     <h3>Have Questions About Planetary Science?</h3>
