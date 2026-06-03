@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.FormSection{
+    width: 100%;
+    padding: 3em 0;
+
+}
+
+.form-details{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.form-text h3{
+    color: rgba(22, 75, 175, 1);
+    font-size: 1.5rem;
+}
+
+
+form{
+    padding: 2em 0;
+}
+
+.form-group{
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+label{
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: .3em;
+    color: rgba(39, 39, 46, 1);
+    font-size: .8rem;
+}
+
+input{
+    width: 100%;
+    padding: 1em .9em;
+    font-size: .8rem;
+    border: 1px solid rgba(199, 199, 199, 1);
+    border-radius: 7px;
+    outline: none;
+}
+
+textarea{
+    resize: none;
+    padding: .4em .9em;
+    width: 100%;
+    height: 150px;
+    outline: .8rem;
+    border: 1px solid rgba(199, 199, 199, 1);
+    border-radius: 7px;
+    outline: none;
+}
+
+
+.submit-btn{
+    width: 100%;
+    background-color: rgba(22, 75, 175, 1);
+    border-radius: 7px;
+    padding: .9em 2em;
+    border: none;
+    color: white;
+    font-weight: 500;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.counterDisplay{
+    font-size: .8rem;
+}
+
+@media (min-width: 768px) {
+    .form-text{
+        text-align: left;
+    }
+
+
+    .form-flex{
+        display: flex;
+        gap: 15px;
+    }
+    
+    .form-group{
+        flex: 1;
+    }
+
+    textarea{
+        height: auto;
+    }
+
+    .btn{
+        text-align: left;
+    }
+
+    .submit-btn{
+        width: 30%;
+        cursor: pointer;
+    }
+}
