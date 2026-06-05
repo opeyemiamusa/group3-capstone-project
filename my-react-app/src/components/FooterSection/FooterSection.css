@@ -1,0 +1,80 @@
+/* Main footer layout container */
+.FooterSection {
+  background-color: #03153d;    /* Matches your Figma dark blue background */
+  color: #ffffff;               /* Sets base text color to white */
+  padding: 40px 20px;
+  font-family: sans-serif;      /* Adjust if your project uses a specific font */
+}
+
+/* Align content inside to the left as seen in Figma */
+.footer-about {
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-about h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.about-text {
+  margin-bottom: 16px;
+  color: #e0e0e0;               /* Slightly softer white for the description */
+}
+
+/* Arrange names horizontally with clean spacing */
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;                    /* Creates clean space between each name */
+  margin-bottom: 24px;
+}
+
+/* Force white styling onto your name links */
+.team-members a {
+  color: #ffffff !important;
+  text-decoration: none;        /* Removes underline to look like the design */
+  font-size: 0.95rem;
+}
+
+.team-members a:hover {
+  text-decoration: underline;   /* Optional: adds underline only when hovered */
+  color: #3498db !important;   /* Optional: slight color shift on hover */
+}
+
+/* Bottom spacing rules */
+hr {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2); /* Thin subtle line */
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between; /* Puts TSAcademy on the right side */
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0.85rem;
+}
+
+.footer-left p {
+  margin: 4px 0;
+}
+
+.footer-bottom a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+/* Forces the bottom text to align perfectly to the left */
+.footer-left {
+  text-align: left;
+}
+
+/* Optional: Removes any default underline from the bottom links if you don't want them */
+.footer-left a, .footer-right a {
+  text-decoration: none;
+}
+
