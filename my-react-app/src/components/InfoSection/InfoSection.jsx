@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./infoSection.css";
 
 export default function infoSection() {
@@ -6,7 +6,7 @@ export default function infoSection() {
     <section className="video-section">
       <div className="video-container">
         <video controls autoPlay loop muted>
-          <source src="video.mp4" type="video/mp4" />
+          <source src="/Video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
