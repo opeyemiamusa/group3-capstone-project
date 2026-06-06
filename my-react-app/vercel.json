@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/my-react-app/dist/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
