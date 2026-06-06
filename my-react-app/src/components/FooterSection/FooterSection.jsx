@@ -25,6 +25,7 @@ function FooterSection() {
             <a href="https://github.com/Leader613" target="_blank" rel="noreferrer">Leader</a>
             <a href="https://github.com/AtiyyayuNur" target="_blank" rel="noreferrer">Atiyyatu Nur</a>
             <a href="https://github.com/emmyandel16" target="_blank" rel="noreferrer">Emmanuel</a>
+            <a href="https://github.com/os-ayomi" target="_blank" rel="noreferrer">Shina</a>
           </div>
         </div>
 
