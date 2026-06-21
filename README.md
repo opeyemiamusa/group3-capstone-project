@@ -4,7 +4,7 @@ A React web application that explores our solar system through data. Built as a 
 
 ## Live Demo
 
-> **Deployment Link:** (https://group3-capstone-project-smoky.vercel.app/)
+> **Deployment Link:** (https://group3-capstone-project-three.vercel.app/)
 
 
 ## Project Summary
