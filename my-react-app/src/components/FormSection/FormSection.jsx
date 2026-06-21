@@ -3,32 +3,36 @@ import { useState } from 'react'
 import './FormSection.css'
 
 function FormSection(){
-
-    const [fullname, setName] = useState("");
+        const [fullname, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phoneNo, setPhoneNo] = useState("");
     const [message, setMessage] = useState("");
-    const [submitted, setSubmitted] = useState(false)
-    const [errors, setErrors] = useState({})
-  
-    
-    async function handleSubmit(e){
-        e.preventDefault();
-        
-        const response = await fetch("https://whitebricks.com/tsacademy.php",
-            {
-            method: "POST",
-            headers:{
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({fullname, email, phoneNo, message
-            })
-        }
-    );
-        if (response.ok){
-            setSubmitted(true)
-        }      
+    const [submitted, setSubmitted] = useState(false);
+
+
+async function handleSubmit(e) {
+    e.preventDefault();
+
+    const formData = new FormData();
+    formData.append("fullName", fullname);
+    formData.append("email", email);
+    formData.append("phoneNumber", phoneNo);
+    formData.append("message", message);
+
+    const response = await fetch("https://whitebricks.com/tsacademy.php", {
+        method: "POST",
+        body: formData
+    });
+
+    if (response.ok) {
+        setSubmitted(true);
+
+        setName("");
+        setEmail("");
+        setPhoneNo("");
+        setMessage("");
     }
+}
 
     return(
         <section id='FormSection' className="FormSection">
@@ -61,7 +65,7 @@ function FormSection(){
 
                         <div className="form-group">
                             <label htmlFor="message">Message</label>
-                            <textarea name="message" id="message" value={message} onChange={(e) => setMessage(e.target.value)} placeholder='Enter your message' required></textarea>
+                            <textarea  maxLength={100} name="message" id="message" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Enter your message" required/>
                             <div className="counterDisplay">100 Characters</div>
                         </div>
                     </div>
@@ -74,9 +78,9 @@ function FormSection(){
                     </div>
                 </form>
 
-                {submitted && (
-                    <p>Message submitted successfully</p>
-                )}
+               {submitted && (
+    <p className="success-message"> Message submitted successfully <i class="fa-solid fa-check"></i></p>
+)}
 
             </div>
         </section>

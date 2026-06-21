@@ -16,17 +16,17 @@ This application recreates a provided mockup as a fully working React web app. I
 
 | Name | GitHub Profile | Position | Component |
 | :--- | :--- | :--- |:--- |
-| Opeyemi(Lead) | [@username](https://github.com/opeyemiamusa) | Lead | `PlanetCardSection`,`TableSection`| `Navbar`|
-| Salome | [@username](https://github.com/Salomenelson) | Assistant lead| `HeroSection`, `FormSection`|
-| Mustapha | [@username](https://github.com/Tafaa01) |  Group member|`Review and merging` |
-| James | [@username](https://github.com/billboyn) | Group member |`InfoSection` |
-| Victoria | [@username](https://github.com/QueenVictoria2) | Group member|`FooterSection` |
-| Goodness | [@username](https://github.com/goodnesstomiwa) | Group member | `Review and merging`|
-| Omoh | [@username](https://github.com/Omoh-szn) | Group member| `Review and merging`|
-| Leader | [@username](https://github.com/Leader613) | Group member| `Review and merging`|
-| Atiyyatu Nur| [@username](https://github.com/AtiyyayuNur) | Group member| `Genaral contribution`|
-| Emmanuel| [@username](https://github.com/emmyandel16) | Group member| `Genaral contribution`|
-| Shina| [@username](https://github.com/os-ayomi) | Group member| `Genaral contribution`|
+| Opeyemi(Lead) | https://github.com/opeyemiamusa | Lead | `PlanetCardSection`,`TableSection`| `Navbar`|
+| Salome | https://github.com/Salomenelson | Assistant lead| `HeroSection`, `FormSection`|
+| Mustapha | https://github.com/Tafaa01 |  Group member|`Review and merging` |
+| James | https://github.com/billboyn | Group member |`InfoSection` |
+| Victoria | https://github.com/QueenVictoria2 | Group member|`FooterSection` |
+| Goodness | https://github.com/goodnesstomiwa | Group member | `Review and merging`|
+| Omoh | https://github.com/Omoh-szn | Group member| `Review and merging`|
+| Leader | https://github.com/Leader613 | Group member| `Review and merging`|
+| Atiyyatu Nur| https://github.com/AtiyyayuNur | Group member| `Genaral contribution`|
+| Emmanuel| https://github.com/emmyandel16 | Group member| `Genaral contribution`|
+| Shina| https://github.com/os-ayomi | Group member| `Genaral contribution`|
 
 
 

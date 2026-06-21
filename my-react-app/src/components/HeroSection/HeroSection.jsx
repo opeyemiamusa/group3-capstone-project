@@ -16,10 +16,10 @@ function HeroSection(){
 
                         <div className="button">
 
-                        <Button href="#PlanetCardSection" buttonTitle={"Explore the data"} background={"rgba(22, 75, 175, 1)"} color={"white"}/>
+                        <Button href="#PlanetCardSection" buttonTitle={"Explore the Data"} background={"rgba(22, 75, 175, 1)"} color={"white"} fontWeight={"100"}/>
 
-                        <Button href="#FormSection" buttonTitle={"Contact Us"} background={"#051540"}
-                        border={"1px solid rgba(221, 221, 221, 1)"} color={"white"}/>
+                        <Button href="#FormSection" buttonTitle={"Contact Us"} background={"transparent"}
+                        border={"2px solid rgba(221, 221, 221, 1)"} color={"white"} fontWeight={"100"}/>
                         </div>
                     </div>
                 </div>

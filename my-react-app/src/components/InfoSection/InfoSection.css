@@ -6,8 +6,10 @@
     background-color: #ffffff;
     height: 750px;
     width: 100%;
+   
 }
 .video-container {
+     max-width: 1000px;
     width: 70%;
     height: 300px;
     border-radius: 10px;

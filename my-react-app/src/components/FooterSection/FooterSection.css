@@ -4,12 +4,14 @@
   color: #ffffff;               /* Sets base text color to white */
   padding: 40px 20px;
   font-family: sans-serif;      /* Adjust if your project uses a specific font */
+
 }
+
 
 /* Align content inside to the left as seen in Figma */
 .footer-about {
   text-align: left;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 

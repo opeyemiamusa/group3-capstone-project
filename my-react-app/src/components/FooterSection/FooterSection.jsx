@@ -27,7 +27,7 @@ function FooterSection() {
             <a href="https://github.com/emmyandel16" target="_blank" rel="noreferrer">Emmanuel</a>
             <a href="https://github.com/os-ayomi" target="_blank" rel="noreferrer">Shina</a>
           </div>
-        </div>
+        
 
         <hr/>
 
@@ -37,12 +37,12 @@ function FooterSection() {
               ©2026 Design by{" "}
               <a href="https://amakandukwu.com" target="_blank" rel="noreferrer">Amaka</a>{" "}
               &{" "}
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer">Ifeoma A.</a>
+              <a href="https://www.linkedin.com/in/ifeomaokocha/" target="_blank" rel="noreferrer">Ifeoma A.</a>
             </p>
 
             <p>
               Built by{" "}
-              <a href="https://github.com" target="_blank" rel="noreferrer">Group 3 Capstone Project</a>
+              <a href="https://github.com/opeyemiamusa/group3-capstone-project" target="_blank" rel="noreferrer">Group 3 Capstone Project</a>
               . All rights reserved
             </p>
           </div>
@@ -52,6 +52,7 @@ function FooterSection() {
           </div>
         </div>
 
+      </div>
       </div>
     </footer>
   );
